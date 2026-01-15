@@ -2,7 +2,7 @@ export const personalInfo = {
   name: "NOFAZECHRIS",
   title: "Full Stack Developer × Web3 Builder × Mobile Engineer",
   bio: "Crafting decentralized applications and immersive digital experiences across web and mobile platforms. Specializing in blockchain integration, reactive interfaces, and scalable architectures.",
-  email: "chriseguaoba@gmail.com",
+  email: "nofazechris@gmail.com",
   github: "github.com/nofazechris",
   twitter: "@nofazechris",
   Linkedin: "Coming soon"
