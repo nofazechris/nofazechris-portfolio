@@ -1,5 +1,5 @@
 import { personalInfo, techStack } from '../data/content';
-
+// Home Component
 export default function Home() {
   return (
     <div className="space-y-8 animate-fadeIn">

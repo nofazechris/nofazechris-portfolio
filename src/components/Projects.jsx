@@ -1,5 +1,5 @@
 import { projects } from '../data/content';
-
+// Projects Component
 export default function Projects() {
   return (
     <div className="space-y-6 animate-fadeIn">

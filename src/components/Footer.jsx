@@ -6,7 +6,6 @@ export default function Footer() {
         <div className="flex gap-4 md:gap-6 flex-wrap justify-center">
           <span className="animate-fadeIn delay-1">BUILT WITH THREE.JS</span>
           <span className="animate-pulse">◈</span>
-          <span className="animate-fadeIn delay-2">WEB3 READY</span>
         </div>
       </div>
     </footer>

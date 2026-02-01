@@ -1,4 +1,3 @@
-// ==================== 1. src/App.jsx ====================
 import React, { useState } from 'react';
 import ThreeBackground from './components/ThreeBackground';
 import Header from './components/Header';
