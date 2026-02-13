@@ -2,11 +2,9 @@ export const personalInfo = {
   name: "Chris Eguaoba",
   title: "Full-Stack Developer × React & Mobile Engineer",
   bio: "Full-stack developer with 3+ years of experience building scalable web and mobile applications. Strong in React, React Native, PostgreSQL, and backend API architecture. Experienced in startup environments and shipping production-ready features end-to-end.",
-  email: "nofazechris@gmail.com",
+  email: "Chriseguaoba@gmail.com",
   github: "github.com/nofazechris",
   twitter: "@nofazechris",
-  Linkedin: "Add your LinkedIn URL here",
-  portfolio: "yourportfolio.com"
 };
 
 export const techStack = [
