@@ -1,112 +1,118 @@
 export const personalInfo = {
-  name: "NOFAZECHRIS",
-  title: "Full Stack Developer × Web3 Builder × Mobile Engineer",
-  bio: "Crafting decentralized applications and immersive digital experiences across web and mobile platforms. Specializing in blockchain integration, reactive interfaces, and scalable architectures.",
+  name: "Chris Eguaoba",
+  title: "Full-Stack Developer × React & Mobile Engineer",
+  bio: "Full-stack developer with 3+ years of experience building scalable web and mobile applications. Strong in React, React Native, PostgreSQL, and backend API architecture. Experienced in startup environments and shipping production-ready features end-to-end.",
   email: "nofazechris@gmail.com",
   github: "github.com/nofazechris",
   twitter: "@nofazechris",
-  Linkedin: "Coming soon"
+  Linkedin: "Add your LinkedIn URL here",
+  portfolio: "yourportfolio.com"
 };
 
-export const techStack = ['JavaScript', 'React', 'Python', 'React Native'];
+export const techStack = [
+  "JavaScript",
+  "TypeScript",
+  "React",
+  "React Native",
+  "Next.js",
+  "Node.js",
+  "Express.js",
+  "Ruby on Rails",
+  "PostgreSQL",
+  "MongoDB",
+  "REST APIs",
+  "WebSockets",
+  "Expo",
+  "Heroku",
+  "Docker",
+  "Git",
+  "AWS (Basics)"
+];
 
 export const projects = [
   {
     id: 1,
-    name: "DeFi Dashboard",
-    tech: "React, Web3.js, Solidity",
-    desc: "Decentralized finance analytics platform with real-time blockchain data visualization and portfolio tracking",
+    name: "Pickleball Game Scheduler",
+    tech: "React, Node.js, PostgreSQL",
+    desc: "Mobile-first web app allowing users to create, schedule, and join pickleball games with RSVP limits and location-based setup.",
     link: "#",
-    year: "2024",
-    status: "Coming Soon"
+    year: "2026",
+    status: "Completed"
   },
   {
     id: 2,
-    name: "NFT Marketplace",
-    tech: "React Native, IPFS, Ethereum",
-    desc: "Mobile-first NFT trading platform with wallet integration, gasless transactions, and collection management",
+    name: "Skill-Based Player Matching System",
+    tech: "React, PostgreSQL",
+    desc: "Player profile and matchmaking system connecting users based on skill level and availability.",
     link: "#",
-    year: "2024",
-    status: "Coming Soon"
+    year: "2026",
+    status: "Completed"
   },
   {
     id: 3,
-    name: "DAO Governance App",
-    tech: "Next.js, Python, Smart Contracts",
-    desc: "Voting and proposal management system for decentralized organizations with on-chain verification",
+    name: "Push Notification Demo App",
+    tech: "React Native, Expo, Firebase",
+    desc: "Mobile app demonstrating real-time notifications for game reminders and player updates.",
     link: "#",
-    year: "2023",
-    status: "Coming Soon"
+    year: "2026",
+    status: "In Progress"
   },
   {
     id: 4,
-    name: "Crypto Tracker",
-    tech: "React, Python Flask, WebSockets",
-    desc: "Real-time cryptocurrency portfolio tracker with AI-powered predictions and market sentiment analysis",
+    name: "Real-Time Chat App",
+    tech: "React Native, Node.js, WebSockets",
+    desc: "Built a simple real-time chat application with authentication and persistent messaging.",
     link: "#",
     year: "2024",
-    status: "Coming Soon"
+    status: "Completed"
   },
   {
     id: 5,
-    name: "Web3 Social Network",
-    tech: "React Native, IPFS, Lens Protocol",
-    desc: "Decentralized social media app with token-gated communities and NFT profile verification",
+    name: "Service Marketplace Web App",
+    tech: "React, Node.js, PostgreSQL",
+    desc: "Full-stack booking platform with user dashboards, secure authentication, and backend API integration.",
     link: "#",
-    year: "2023",
-    status: "Coming Soon"
-  },
-  {
-    id: 6,
-    name: "Smart Contract Auditor",
-    tech: "Python, Slither, Mythril",
-    desc: "Automated smart contract security analysis tool with vulnerability detection and gas optimization",
-    link: "#",
-    year: "2023",
-    status: "Coming Soon"
+    year: "2024",
+    status: "Completed"
   }
 ];
 
 export const skills = [
   { 
     cat: "Frontend", 
-    items: ["React", "React Native", "Next.js", "Three.js", "Tailwind", "TypeScript", "Redux", "Vite"]
+    items: ["React", "React Native", "Next.js", "JavaScript", "TypeScript", "Redux", "Tailwind CSS", "HTML5", "CSS3"]
   },
   { 
     cat: "Backend", 
-    items: ["Python", "Node.js", "FastAPI", "Django", "Express", "GraphQL", "REST APIs", "WebSockets", "Express"]
-  },
-  { 
-    cat: "Web3", 
-    items: ["Solidity", "Web3.js", "Ethers.js", "IPFS", "Smart Contracts", "Hardhat", "OpenZeppelin", "Lens Protocol"]
+    items: ["Node.js", "Express.js", "Ruby on Rails", "REST APIs", "Authentication (JWT)", "WebSockets"]
   },
   { 
     cat: "Database", 
-    items: ["MongoDB", "PostgreSQL", "Redis", "Firebase", "Supabase", "Pinecone"]
+    items: ["PostgreSQL", "MongoDB", "Redis"]
   },
   { 
-    cat: "Tools & DevOps", 
-    items: ["Git", "Docker", "AWS", "Vercel", "GitHub Actions", "Jest", "Cypress"]
+    cat: "Infrastructure & DevOps", 
+    items: ["Heroku", "Expo/EAS", "Docker", "AWS (EC2, S3 Basics)", "GitHub Actions"]
   }
 ];
 
 export const experience = [
   {
-    role: "FullStack Web3 Developer",
-    company: "Web3 Freelance",
-    period: "2023 - Present",
-    description: "Building Tools for Decentralized Applications and Smart Contract Integrations"
+    role: "Freelance Full-Stack Developer",
+    company: "Self-Employed",
+    period: "2021 - Present",
+    description: "Building and deploying full-stack web and mobile applications using React, React Native, and PostgreSQL. Designing scalable APIs, managing databases, integrating third-party services, and maintaining production systems."
   },
   {
-    role: "Tech Lead [Full-stack Dveloper]",
-    company: "Slack Startup",
-    period: "2022 - 2023",
-    description: "Helped develop a Startup from Scratch to Launch using React and Node.js"
+    role: "Backend Intern",
+    company: "Injest.io",
+    period: "2023",
+    description: "Worked on backend feature development and PostgreSQL database optimization in a fast-paced startup environment."
   },
   {
-    role: "Software Developer Intern",
-    company: "Vetro INC ",
-    period: "2021 - 2022",
-    description: "Developed web applications and contributed to backend services"
+    role: "Frontend Developer",
+    company: "First Guarantee PLC",
+    period: "2020",
+    description: "Developed and maintained responsive frontend interfaces, improved UI performance, and collaborated with backend teams to integrate REST APIs."
   }
 ];
